@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
 import { LogoAPComponent } from './componentes/logo-ap/logo-ap.component';
-import { RedesComponent } from './componentes/redes/redes.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { BannerComponent } from './componentes/banner/banner.component';
     AppComponent,
     HeaderComponent,
     LogoAPComponent,
-    RedesComponent,
     BannerComponent
   ],
   imports: [
