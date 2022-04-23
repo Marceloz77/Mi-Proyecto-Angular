@@ -2,12 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0%;
+    
 }
 #logoAP{
     width: 150px;
 }
 img{
-    width: 50px;
+    width: 40px;
 }
 .redes{
     margin-right: 0.5em;
@@ -19,12 +21,10 @@ img{
 .redes img{
     margin: 0.3em;
 }
+/*Configuracion para equipos de menor resolucion*/
+
 @media (max-width: 575px){
     .container{
         flex-direction: column;
     }
-    #logo{
-        
-    }
-   
 }
