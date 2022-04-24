@@ -1,8 +1,52 @@
-.row{
+/* Color de fondo */
+div{
     background-color: rgb(39, 237, 255);
 }
-img{
-    width: 250px;
-    border-radius: 55%;
 
+/* Estilo de las Columnas */
+.row{
+    
+    padding: 15px;
+    text-align: center;
+}
+
+/* Etilo de la Imagen */
+img{
+    width: 350px;
+    border-radius: 70%;
+    min-width: auto;
+    margin-top: -5em;
+    box-shadow: 4px 4px 4px rgba(97, 94, 94, 0.588);
+}
+/* Estilo del Nombre y Titulo */
+#nombre{
+    font-size: 2em;
+    font-weight: bold;
+}
+#titulo{
+    font-weight: bold;
+}
+h1{
+    font-weight: 100;
+}
+#columna-nombre-titulo{
+    margin-top: 0.3em;
+}
+span p{
+    text-align: left;
+}
+
+
+
+@media (max-width: 600px){
+    img{
+        margin-top: -10em;
+        max-width: 300px;
+        
+    }
+    #columna-nombre-titulo{
+        margin-top: 2em;
+        width: 100%;
+        justify-content: center;
+    }
 }
